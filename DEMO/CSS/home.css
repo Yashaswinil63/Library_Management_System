@@ -1,0 +1,59 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Mar 21, 2023, 10:31:40 PM
+    Author     : Yashaswini
+*/
+body{
+    background-image: url('dog.jpg');
+    margin:0;
+    padding:0;
+    font-family: montserrat;
+    background: linear-gradient(120deg, #2980b9,#8e44ad);
+    height: 100vh;  /* checkout */
+    overflow: hidden; /* checkout */
+}
+.title h1{
+    
+    left: 15%;
+    position: absolute;
+    padding: 50px 0;
+    text-align: center;
+    margin: 30px;
+    color: white;
+    font-size: 40px;
+}
+.logout{
+  background-color: skyblue ;
+  color: Black; /* set text color to white */
+  border: none; /* remove border */
+  padding: 15px 25px; /* add padding to button */
+  text-align: center; /* center text horizontally */
+  text-decoration: none; /* remove underline */
+  display: inline-block; /* make button display as an inline block element */
+  font-size: 18px; /* set font size */
+  cursor: pointer; /* add cursor pointer on hover */
+  border-radius: 10px; /* add rounded corners */
+  float:top;
+  float: right;
+}
+.submit-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* set height to fill viewport */
+}
+
+.submit-button {
+  padding: 20px 40px;
+  font-size: 40px;
+  background-color: White;
+  color: black;
+  border: none;
+  border-radius: 25px;
+  margin: 15px 0;
+  cursor: pointer;
+}

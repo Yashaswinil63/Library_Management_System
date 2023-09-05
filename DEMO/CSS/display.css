@@ -1,0 +1,25 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Mar 21, 2023, 11:48:00 PM
+    Author     : Yashaswini
+*/
+
+body{
+    margin:0;
+    padding:0;
+    font-family: montserrat;
+    background: linear-gradient(120deg, #2980b9,#8e44ad);
+    height: 100vh;  /* checkout */
+    overflow: hidden; /* checkout */
+}
+
+.display{
+    font-size: 25px;
+    text-align:center;
+    left: 50%;
+    top:50%;
+    text-color: black;
+}
